@@ -9,7 +9,7 @@ import { TasksModule } from './tasks/tasks.module';
       host: 'localhost',
       port: 5432,
       username: 'postgres',   // 👈 your Postgres username
-      password: 'admin123',   // 👈 the password you set during installation
+      password: 'postgres',   // 👈 the password you set during installation
       database: 'taskmanager',
       autoLoadEntities: true, // automatically load entities
       synchronize: true,      // auto create tables (turn off in production)
